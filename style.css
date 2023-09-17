@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background: rgb(164, 4, 151);
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+}
+.curency{
+    padding: 20px;
+}
+select{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+input{
+    font-size: 25px;
+    text-align: right;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+#equal{
+    font-size: 25px;
+    color: #fff;
+}
+.excageRete{
+    font-weight: 600;
+}
